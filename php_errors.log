@@ -1,0 +1,161 @@
+[13-Feb-2020 06:05:04 UTC] PHP Warning:  The use statement with non-compound name 'Email' has no effect in /var/www/vim/tests/EmailTest.php on line 5
+[13-Feb-2020 06:05:04 UTC] PHP Stack trace:
+[13-Feb-2020 06:05:04 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 06:05:04 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 06:05:04 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 06:05:04 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 06:05:04 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 06:05:04 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 06:05:04 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 06:05:04 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 06:06:42 UTC] PHP Warning:  The use statement with non-compound name 'Email' has no effect in /var/www/vim/tests/EmailTest.php on line 5
+[13-Feb-2020 06:06:42 UTC] PHP Stack trace:
+[13-Feb-2020 06:06:42 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 06:06:42 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 06:06:42 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 06:06:42 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 06:06:42 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 06:06:42 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 06:06:42 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 06:06:42 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 06:09:35 UTC] PHP Warning:  The use statement with non-compound name 'Email' has no effect in /var/www/vim/tests/EmailTest.php on line 5
+[13-Feb-2020 06:09:35 UTC] PHP Stack trace:
+[13-Feb-2020 06:09:35 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 06:09:35 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 06:09:35 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 06:09:35 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 06:09:35 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 06:09:35 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 06:09:35 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 06:09:35 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 06:11:23 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /var/www/vim/tests/EmailTest.php on line 3
+[13-Feb-2020 06:11:23 UTC] PHP Stack trace:
+[13-Feb-2020 06:11:23 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 06:11:23 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 06:11:23 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 06:11:23 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 06:11:23 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 06:11:23 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 06:11:23 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 06:11:23 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 06:11:36 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /var/www/vim/tests/EmailTest.php on line 3
+[13-Feb-2020 06:11:36 UTC] PHP Stack trace:
+[13-Feb-2020 06:11:36 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 06:11:36 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 06:11:36 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 06:11:36 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 06:11:36 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 06:11:36 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 06:11:36 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 06:11:36 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 06:12:43 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /var/www/vim/tests/EmailTest.php on line 3
+[13-Feb-2020 06:12:43 UTC] PHP Stack trace:
+[13-Feb-2020 06:12:43 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 06:12:43 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 06:12:43 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 06:12:43 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 06:12:43 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 06:12:43 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 06:12:43 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 06:12:43 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 06:32:03 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /var/www/vim/tests/EmailTest.php on line 3
+[13-Feb-2020 06:32:03 UTC] PHP Stack trace:
+[13-Feb-2020 06:32:03 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 06:32:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 06:32:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 06:32:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 06:32:03 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 06:32:03 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 06:32:03 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 06:32:03 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 06:32:23 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /var/www/vim/tests/EmailTest.php on line 3
+[13-Feb-2020 06:32:23 UTC] PHP Stack trace:
+[13-Feb-2020 06:32:23 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 06:32:23 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 06:32:23 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 06:32:23 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 06:32:23 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 06:32:23 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 06:32:23 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 06:32:23 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 06:35:09 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /var/www/vim/tests/ExampleTest.php on line 18
+[13-Feb-2020 06:42:38 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/vim/tests/ExampleTest.php on line 3
+[13-Feb-2020 06:42:38 UTC] PHP Stack trace:
+[13-Feb-2020 06:42:38 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 06:42:38 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 06:42:38 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 06:42:38 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 06:42:38 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 06:42:38 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 06:42:38 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 06:42:38 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 06:44:36 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/vim/tests/ExampleTest.php on line 3
+[13-Feb-2020 06:44:36 UTC] PHP Stack trace:
+[13-Feb-2020 06:44:36 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 06:44:36 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 06:44:36 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 06:44:36 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 06:44:36 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 06:44:36 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 06:44:36 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 06:44:36 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 06:45:04 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/vim/tests/ExampleTest.php on line 3
+[13-Feb-2020 06:45:04 UTC] PHP Stack trace:
+[13-Feb-2020 06:45:04 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 06:45:04 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 06:45:04 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 06:45:04 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 06:45:04 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 06:45:04 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 06:45:04 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 06:45:04 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 07:16:22 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/vim/tests/ExampleTest.php on line 3
+[13-Feb-2020 07:16:22 UTC] PHP Stack trace:
+[13-Feb-2020 07:16:22 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 07:16:22 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 07:16:22 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 07:16:22 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 07:16:22 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 07:16:22 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 07:16:22 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 07:16:22 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 07:17:00 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/vim/tests/ExampleTest.php on line 3
+[13-Feb-2020 07:17:00 UTC] PHP Stack trace:
+[13-Feb-2020 07:17:00 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 07:17:00 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 07:17:00 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 07:17:00 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 07:17:00 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 07:17:00 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 07:17:00 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 07:17:00 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 07:17:37 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/vim/tests/ExampleTest.php on line 3
+[13-Feb-2020 07:17:37 UTC] PHP Stack trace:
+[13-Feb-2020 07:17:37 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 07:17:37 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 07:17:37 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 07:17:37 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 07:17:37 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 07:17:37 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 07:17:37 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 07:17:37 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 07:17:57 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/vim/tests/ExampleTest.php on line 3
+[13-Feb-2020 07:17:57 UTC] PHP Stack trace:
+[13-Feb-2020 07:17:57 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 07:17:57 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 07:17:57 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 07:17:57 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 07:17:57 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 07:17:57 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 07:17:57 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 07:17:57 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 08:06:48 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/vim/tests/MyTestPrint.php on line 3
+[13-Feb-2020 08:06:48 UTC] PHP Stack trace:
+[13-Feb-2020 08:06:48 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 08:06:48 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 08:06:48 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 08:06:48 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 08:06:48 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 08:06:48 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 08:06:48 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 08:06:48 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48

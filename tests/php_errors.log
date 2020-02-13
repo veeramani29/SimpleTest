@@ -1,0 +1,30 @@
+[13-Feb-2020 08:07:22 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /var/www/vim/tests/MyTestPrint.php on line 3
+[13-Feb-2020 08:07:22 UTC] PHP Stack trace:
+[13-Feb-2020 08:07:22 UTC] PHP   1. {main}() /var/www/vim/vendor/phpunit/phpunit/phpunit:0
+[13-Feb-2020 08:07:22 UTC] PHP   2. PHPUnit\TextUI\Command::main() /var/www/vim/vendor/phpunit/phpunit/phpunit:53
+[13-Feb-2020 08:07:22 UTC] PHP   3. PHPUnit\TextUI\Command->run() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:148
+[13-Feb-2020 08:07:22 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php:169
+[13-Feb-2020 08:07:22 UTC] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:73
+[13-Feb-2020 08:07:22 UTC] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php:130
+[13-Feb-2020 08:07:22 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:43
+[13-Feb-2020 08:07:22 UTC] PHP   8. PHPUnit\Util\Fileloader::load() /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php:48
+[13-Feb-2020 08:08:59 UTC] PHP Fatal error:  Uncaught Error: Undefined constant 'tests' in /var/www/vim/tests/MyTest.php:2
+Stack trace:
+#0 /var/www/vim/tests/MyTestPrint.php(2): require()
+#1 /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php(64): include_once('/var/www/vim/te...')
+#2 /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php(48): PHPUnit\Util\Fileloader::load('/var/www/vim/te...')
+#3 /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php(43): PHPUnit\Util\Fileloader::checkAndLoad('MyTestPrint.php')
+#4 /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php(130): PHPUnit\Runner\StandardTestSuiteLoader->load('MyTestPrint', 'MyTestPrint.php')
+#5 /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php(73): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('MyTestPrint', '')
+#6 /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php(169): PHPUnit\Runner\BaseTestRunner->getTest('MyTestPrint', '', Array)
+#7 /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-> in /var/www/vim/tests/MyTest.php on line 2
+[13-Feb-2020 08:11:04 UTC] PHP Fatal error:  Uncaught Error: Undefined constant 'Tests' in /var/www/vim/tests/MyTest.php:2
+Stack trace:
+#0 /var/www/vim/tests/MyTestPrint.php(2): require()
+#1 /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php(64): include_once('/var/www/vim/te...')
+#2 /var/www/vim/vendor/phpunit/phpunit/src/Util/Fileloader.php(48): PHPUnit\Util\Fileloader::load('/var/www/vim/te...')
+#3 /var/www/vim/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php(43): PHPUnit\Util\Fileloader::checkAndLoad('MyTestPrint.php')
+#4 /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php(130): PHPUnit\Runner\StandardTestSuiteLoader->load('MyTestPrint', 'MyTestPrint.php')
+#5 /var/www/vim/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php(73): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('MyTestPrint', '')
+#6 /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php(169): PHPUnit\Runner\BaseTestRunner->getTest('MyTestPrint', '', Array)
+#7 /var/www/vim/vendor/phpunit/phpunit/src/TextUI/Command.php(148): PHPUnit\TextUI\Command-> in /var/www/vim/tests/MyTest.php on line 2
