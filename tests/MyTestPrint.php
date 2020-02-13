@@ -1,5 +1,6 @@
 <?php
 require 'MyTest.php';
+require 'OneIf.php';
 use PHPUnit\Framework\TestCase;
 
 
@@ -28,6 +29,11 @@ class MyTestPrint extends TestCase
 
         $this->asserttrue(true);
     }
+public function testoneifPrint(){
+$obj=new OneIf(1,100);
+$obj->withOneIf();
+$this->asserttrue(true);
+}
 
 
 }
